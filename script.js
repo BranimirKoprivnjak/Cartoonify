@@ -46,6 +46,7 @@ for (const value of numOfColorsPerImage) {
   if (value === defaultNumOfColors) optionElement.selected = true;
 }
 
+// manually add viewBox for netlify deployment
 document.querySelector('.drop-area-icon').setAttribute('viewBox', '0 0 50 43');
 
 const fileHandler = async event => {
